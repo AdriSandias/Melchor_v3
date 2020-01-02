@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#header{
+  position: absolute;
+  z-index: 10;
+  width: 100%
+}
+
+.navbar{
+  padding: 20px 0;
+  background-color: black;
+  opacity: 0.8;
+}
+
+.navbar-brand{
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+.navbar-dark .navbar-brand{
+  color: #dcdde1;
+}
+
+.nav-item{
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-left: 10px;
+}
+
+.navbar-dark .navbar-nav .nav-item .nav-link:hover{
+  background: #dcdde1;
+  color: #262626;
+}
+
+.main{
+  position: relative;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/5/5d/Ruinas_de_Topoxt%C3%A9%2C_Guatemala_-_panoramio.jpg);
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 220px 0 200px;
+}
+
+.main h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 2.6em;
+  color: #dcdde1;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.main p {
+  margin-top: 1em;
+  padding: 0;
+  font-size: 1em;
+  color: #dcdde1;
+}
+
+.main .btn{
+  background: #718093;
+  color: #fff;
+  border-radius: 0;
+}
+div#edit_foto img{
+  height: 200px;
+}
+
+
+div#edit_stilos{
+  text-align: center;
+  padding-top: 150px;
+}
+
+div#edit_stilos h1{
+  font-family: 'Cardo', serif;
+}
+
+div.titulo_estilos {
+  text-align: center;
+}
+
+div#edit_stilos1{
+  border-top: 1px solid black;
+  padding-top: 40px;
+  text-align: center;
+  font-family: 'Cardo', serif;
+}
+div.edit_stilos3{
+  text-align: center;
+  font-family: 'Cardo', serif;
+  background-color: white;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+div.edit_stilos3 img{
+  height: 450px;
+}
+
+iframe {
+  width: 100%;
+  height: 500px;
+}
+
+
+
+div#imagen_edit img{
+  width: 500px;
+  height: 300px;
+  margin:10px auto;
+  display:block;
+}
+
+div#enlaces_2 {
+  text-align: center;
+}
+div#enlaces_2 a {
+  padding: 10px;
+}
+
+div.editar_titulo{
+  text-align: center;
+  border-bottom:  1px solid black;
+  font-family: 'Cardo', serif;
+}
+
+/**RESPONSIVE*/
+
+@media(max-width: 768px){
+  .main{
+    padding: 200px 0;
+  }
+
+  .main h2 {
+    font-size: 2em;
+  }
+
+
+
+  div#imagen_edit img{
+    width: 300px;
+    height: 200px;
+    margin:10px auto;
+    display:block;
+  }
+}
